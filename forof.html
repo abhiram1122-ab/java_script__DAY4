@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="demo"></p>
+    <script>
+        // for...of
+        let arr = [10, 20, 30];
+console.log("for...of");
+for (let v of arr) {
+    console.log(v); // value
+}
+
+
+
+let language = "Java";
+let text = "";
+for (let x of language) {
+  text += x + "<br>";
+}
+document.getElementById("demo").innerHTML = text;
+
+
+
+    </script>
+</body>
+</html>
